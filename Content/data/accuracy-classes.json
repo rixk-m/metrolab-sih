@@ -1,0 +1,18 @@
+[
+  {
+    "class": "I",
+    "description": "Special accuracy class"
+  },
+  {
+    "class": "II",
+    "description": "High accuracy class"
+  },
+  {
+    "class": "III",
+    "description": "Medium accuracy class"
+  },
+  {
+    "class": "IIII",
+    "description": "Ordinary accuracy class"
+  }
+]

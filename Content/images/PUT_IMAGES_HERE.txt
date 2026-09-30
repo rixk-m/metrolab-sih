@@ -1,0 +1,9 @@
+Add only selected, high-quality images here:
+- hero-scale
+- platform-scale
+- weighbridge
+- testing-laboratory
+- verification
+- digital-display
+
+Recommended: WebP/JPG, compressed, consistent premium visual style.

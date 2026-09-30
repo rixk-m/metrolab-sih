@@ -1,0 +1,17 @@
+Component,Variants,Core use
+Button,Primary/Secondary/Ghost/Danger,Actions
+Card,Default/Elevated,Content grouping
+Badge,Success/Warning/Danger/Info/Neutral,Status
+Input,Default/Focus/Error/Disabled,Forms
+Select,Default/Focus/Error/Disabled,Forms
+Data Table,Dense/Comfortable,Records and audit logs
+KPI Card,Metric/Trend/Alert,Dashboard
+Tabs,Underline/Pill,Section switching
+Modal,Info/Confirm/Danger,Focused actions
+Drawer,Right/Left,Details and filters
+Toast,Success/Warning/Error/Info,Feedback
+Tooltip,Default,Contextual help
+Skeleton,Text/Card/Table,Loading
+Alert,Info/Warning/Error/Success,Important messages
+Pagination,Default,Long tables
+File Upload,Idle/Uploading/Success/Error,Reports/evidence

@@ -1,0 +1,7 @@
+Place verified official/reference PDFs here, such as:
+- OIML R76 reference
+- Legal Metrology Act, 2009
+- Legal Metrology (General) Rules, 2011
+- Applicable official testing/verification guidance
+
+Do not use unofficial copies when the official/current source is available.

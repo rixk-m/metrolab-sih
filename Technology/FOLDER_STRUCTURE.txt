@@ -1,0 +1,14 @@
+Technology/
+├── README.md
+├── TECH_STACK.md
+├── ARCHITECTURE.md
+├── DATABASE_SCHEMA.md
+├── API_SPEC.md
+├── SECURITY.md
+├── ENVIRONMENT.md
+├── SETUP.md
+├── DEPLOYMENT.md
+├── CALCULATION_ENGINE.md
+├── TECH_ROADMAP.md
+├── DEPENDENCIES.md
+└── TECH_DECISIONS.md

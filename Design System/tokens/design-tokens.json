@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "name": "MetroLab Design System",
+    "version": "1.0.0",
+    "purpose": "SIH-ready design foundation for the MetroLab Legal Metrology / NAWI testing platform",
+    "supports": [
+      "light",
+      "dark"
+    ]
+  },
+  "color": {
+    "light": {
+      "background": "#F7F8FA",
+      "surface": "#FFFFFF",
+      "surfaceSubtle": "#F1F3F5",
+      "surfaceElevated": "#FFFFFF",
+      "textPrimary": "#111827",
+      "textSecondary": "#4B5563",
+      "textMuted": "#6B7280",
+      "border": "#E5E7EB",
+      "borderStrong": "#D1D5DB",
+      "brand": "#0F766E",
+      "brandHover": "#115E59",
+      "brandSoft": "#CCFBF1",
+      "accent": "#2563EB",
+      "accentSoft": "#DBEAFE",
+      "success": "#15803D",
+      "successSoft": "#DCFCE7",
+      "warning": "#B45309",
+      "warningSoft": "#FEF3C7",
+      "danger": "#B91C1C",
+      "dangerSoft": "#FEE2E2",
+      "info": "#0369A1",
+      "infoSoft": "#E0F2FE"
+    },
+    "dark": {
+      "background": "#0B1120",
+      "surface": "#111827",
+      "surfaceSubtle": "#172033",
+      "surfaceElevated": "#1F2937",
+      "textPrimary": "#F9FAFB",
+      "textSecondary": "#D1D5DB",
+      "textMuted": "#9CA3AF",
+      "border": "#263244",
+      "borderStrong": "#3A475A",
+      "brand": "#2DD4BF",
+      "brandHover": "#5EEAD4",
+      "brandSoft": "#123B3A",
+      "accent": "#60A5FA",
+      "accentSoft": "#172B4D",
+      "success": "#4ADE80",
+      "successSoft": "#123A25",
+      "warning": "#FBBF24",
+      "warningSoft": "#3C2E08",
+      "danger": "#F87171",
+      "dangerSoft": "#421A1A",
+      "info": "#38BDF8",
+      "infoSoft": "#0E3041"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "mono": "JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, monospace"
+    },
+    "scale": {
+      "xs": "12px",
+      "sm": "14px",
+      "md": "16px",
+      "lg": "18px",
+      "xl": "20px",
+      "2xl": "24px",
+      "3xl": "30px",
+      "4xl": "36px",
+      "5xl": "48px"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "lineHeight": {
+      "tight": 1.2,
+      "normal": 1.5,
+      "relaxed": 1.7
+    }
+  },
+  "spacing": {
+    "0": "0px",
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "8": "32px",
+    "10": "40px",
+    "12": "48px",
+    "16": "64px",
+    "20": "80px",
+    "24": "96px"
+  },
+  "radius": {
+    "sm": "6px",
+    "md": "10px",
+    "lg": "14px",
+    "xl": "18px",
+    "pill": "999px"
+  },
+  "shadow": {
+    "sm": "0 1px 2px rgba(15, 23, 42, 0.06)",
+    "md": "0 6px 20px rgba(15, 23, 42, 0.08)",
+    "lg": "0 14px 40px rgba(15, 23, 42, 0.12)"
+  },
+  "motion": {
+    "fast": "120ms",
+    "normal": "180ms",
+    "slow": "280ms",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+  },
+  "layout": {
+    "maxContentWidth": "1440px",
+    "sidebarWidth": "256px",
+    "headerHeight": "72px",
+    "mobileBreakpoint": "768px",
+    "tabletBreakpoint": "1024px"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "electronic-platform-scale",
+    "name": "Electronic Platform Scale",
+    "category": "Platform Scale"
+  },
+  {
+    "id": "bench-scale",
+    "name": "Bench Scale",
+    "category": "Electronic Scale"
+  },
+  {
+    "id": "weighbridge",
+    "name": "Weighbridge",
+    "category": "Industrial Weighing"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "repeatability",
+    "name": "Repeatability Test",
+    "status": "available"
+  },
+  {
+    "id": "eccentricity",
+    "name": "Eccentric Loading Test",
+    "status": "available"
+  },
+  {
+    "id": "weighing-performance",
+    "name": "Weighing Performance Test",
+    "status": "available"
+  },
+  {
+    "id": "zero-setting",
+    "name": "Zero-setting / Zero Indication",
+    "status": "available"
+  },
+  {
+    "id": "tare",
+    "name": "Tare Test",
+    "status": "available"
+  }
+]
