@@ -86,8 +86,8 @@ export default function ReviewAndApprovalPage({
         evaluation_id: evaluation.id,
         version: 1,
         status: "approved",
-        generated_by: user.id || "usr-004",
-        approved_by: user.id || "usr-004",
+        generated_by: user?.id || "usr-004",
+        approved_by: user?.id || "usr-004",
         generated_at: new Date().toISOString(),
         approved_at: new Date().toISOString(),
         content_snapshot: {
@@ -283,7 +283,7 @@ export default function ReviewAndApprovalPage({
             <div className="p-3.5 rounded-lg bg-muted/60 border border-border/80 space-y-2 text-xs">
               <div className="flex justify-between">
                 <span className="text-muted-foreground">Signatory:</span>
-                <span className="font-semibold text-foreground">{user.full_name} ({user.role.replace("_", " ")})</span>
+                <span className="font-semibold text-foreground">{user?.full_name} ({user?.role.replace("_", " ")})</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-muted-foreground">Authority:</span>
