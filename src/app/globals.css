@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* MetroLab custom colors */
+  --color-brand: var(--ml-brand);
+  --color-brand-foreground: var(--ml-brand-foreground);
+  --color-success: var(--ml-success);
+  --color-success-soft: var(--ml-success-soft);
+  --color-warning: var(--ml-warning);
+  --color-warning-soft: var(--ml-warning-soft);
+  --color-danger: var(--ml-danger);
+  --color-danger-soft: var(--ml-danger-soft);
+  --color-info: var(--ml-info);
+  --color-info-soft: var(--ml-info-soft);
+}
+
+/* MetroLab Light Mode — from Design System tokens */
+:root {
+  --background: #F7F8FA;
+  --foreground: #111827;
+  --card: #FFFFFF;
+  --card-foreground: #111827;
+  --popover: #FFFFFF;
+  --popover-foreground: #111827;
+  --primary: #0F766E;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F1F3F5;
+  --secondary-foreground: #111827;
+  --muted: #F1F3F5;
+  --muted-foreground: #6B7280;
+  --accent: #2563EB;
+  --accent-foreground: #FFFFFF;
+  --destructive: #B91C1C;
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: #0F766E;
+  --radius: 0.625rem;
+
+  /* MetroLab brand tokens */
+  --ml-brand: #0F766E;
+  --ml-brand-foreground: #FFFFFF;
+  --ml-brand-hover: #115E59;
+  --ml-brand-soft: #CCFBF1;
+  --ml-success: #15803D;
+  --ml-success-soft: #DCFCE7;
+  --ml-warning: #B45309;
+  --ml-warning-soft: #FEF3C7;
+  --ml-danger: #B91C1C;
+  --ml-danger-soft: #FEE2E2;
+  --ml-info: #0369A1;
+  --ml-info-soft: #E0F2FE;
+
+  /* Charts — teal/brand palette */
+  --chart-1: #0F766E;
+  --chart-2: #2563EB;
+  --chart-3: #15803D;
+  --chart-4: #B45309;
+  --chart-5: #7C3AED;
+
+  /* Sidebar */
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #111827;
+  --sidebar-primary: #0F766E;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F1F3F5;
+  --sidebar-accent-foreground: #111827;
+  --sidebar-border: #E5E7EB;
+  --sidebar-ring: #0F766E;
+}
+
+/* MetroLab Dark Mode — Vibrant Warm Premium */
+.dark {
+  --background: #0C0A0F;
+  --foreground: #FAF8FC;
+  
+  --card: #1A1520;
+  --card-foreground: #FAF8FC;
+  
+  --popover: #1A1520;
+  --popover-foreground: #FAF8FC;
+  
+  --primary: #F59E0B;
+  --primary-foreground: #0C0A0F;
+  
+  --secondary: #2A2230;
+  --secondary-foreground: #FAF8FC;
+  
+  --muted: #2A2230;
+  --muted-foreground: #9CA3AF;
+  
+  --accent: #2A2230;
+  --accent-foreground: #FAF8FC;
+  
+  --destructive: #EF4444;
+  
+  --border: #332A3A;
+  --input: #332A3A;
+  --ring: #F59E0B;
+
+  /* MetroLab brand tokens (dark) */
+  --ml-brand: #F59E0B;
+  --ml-brand-foreground: #0C0A0F;
+  --ml-brand-hover: #FBBF24;
+  --ml-brand-soft: #78350F;
+  
+  --ml-success: #34D399;
+  --ml-success-soft: #064E3B;
+  
+  --ml-warning: #FB923C;
+  --ml-warning-soft: #7C2D12;
+  
+  --ml-danger: #FB7185;
+  --ml-danger-soft: #881337;
+  
+  --ml-info: #A78BFA;
+  --ml-info-soft: #4C1D95;
+
+  /* Charts — vibrant warm palette */
+  --chart-1: #F59E0B;
+  --chart-2: #F472B6;
+  --chart-3: #34D399;
+  --chart-4: #A78BFA;
+  --chart-5: #FB923C;
+
+  /* Sidebar — deep plum */
+  --sidebar: #0A080D;
+  --sidebar-foreground: #9CA3AF;
+  --sidebar-primary: #F59E0B;
+  --sidebar-primary-foreground: #0C0A0F;
+  --sidebar-accent: #1A1520;
+  --sidebar-accent-foreground: #FAF8FC;
+  --sidebar-border: #1A1520;
+  --sidebar-ring: #F59E0B;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  .dark body {
+    background-image: 
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(251,146,60,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse 60% 40% at 80% 50%, rgba(244,114,182,0.04) 0%, transparent 50%),
+      radial-gradient(ellipse 60% 40% at 20% 80%, rgba(167,139,250,0.04) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+  }
+
+  /* MetroLab typography helpers */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+/* MetroLab Status Colors — always accessible, not color-only */
+.status-pass {
+  @apply bg-success-soft text-success;
+}
+.status-fail {
+  @apply bg-danger-soft text-danger;
+}
+.status-warning {
+  @apply bg-warning-soft text-warning;
+}
+.status-pending {
+  @apply bg-info-soft text-info;
+}
+.status-review {
+  @apply bg-info-soft text-info;
+}
+
+/* Tabular numbers for measurement data */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #0C0A0F;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #332A3A;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #4A3D55;
+}
